@@ -1,0 +1,11 @@
+<h1>hello, i'm briana</h1>
+<% @company_info.each do |info| %>
+  <p> 
+    <%= info.about %> <br>
+    you can reach me by phone at: <%= info.phone %> or by email at: <%= info.email %> <br>
+    What do you think of my new logo??? <%= info.logo %> <br>
+    Find me on social media! <%= info.instagram %> <br>
+
+    Goodbye now! Can't wait to meet you!
+  </p>
+<% end %>
